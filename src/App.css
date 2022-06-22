@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+
+* {
+    font-family: 'Sora', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+*{
+    -ms-overflow-style: none;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .AppContent {
+      background-image: url('https://www.camping.info/img/confetti-desktop@3x.png');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      min-height: 80vh;
+  }
+/*---------------------------------------- HOME PAGE CSS ----------------------------------------*/
+
+.container {
+    background-color: #fff !important;
+}
+
+.banner {
+    background-image: url('./assets/banner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    background-color: #bcbcbc;
+    text-align: center;
+    position: relative;
+}
+
+.banner_text {
+    transform: translate(-50%, -80%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    font-weight: bold;
+    color: white;
+    font-size: 45pt;
+}
+
+.banner_info_text {
+    transform: translate(-50%, 100%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    color: white;
+    font-size: 14pt;
+}
+
+.calendar_picker {
+    width: 100%;
+    border-radius: 10px 10px 10px 10px;
+    height: 70px;
+    transform: translate(0, -50%);
+    border-style: none;
+    background-color: #fff;
+    color: #000;
+    box-shadow: 0 0px 8px rgba(0,0,0,.6);
+    margin-bottom: 6px;
+}
+
+.filters {
+    width: 100%;
+    border-radius: 10px 10px 10px 10px;
+    height: 40px;
+    transform: translate(0, -50%);
+    color: #fff;
+    border-style: none;
+    box-shadow: 0 0px 5px rgba(0,0,0,.5);
+    margin-bottom: 6px;
+}
+
+.campsites_card {
+    width: 100% !important;
+    border-radius: 10px 10px 10px 10px !important;
+    transition: box-shadow 0.2s, transform .2s;
+}
+.campsites_card:hover {
+    box-shadow: 0 0px 8px rgba(0,0,0,.5) !important;
+    transform: scale(1.01) !important;
+}
+
+.campsites_card_button {
+    background-color: #fc6388;
+    border-style: none;
+    padding: 6px;
+    border-radius: 10px;
+    width: 160px;
+    color: white;
+    transition: background-color 0.2s;
+}
+
+.campsites_card_button:hover {
+    background-color: #c64b6a;
+    border-style: none;
+    padding: 6px;
+    border-radius: 10px;
+    width: 160px;
+    color: white;
+}
+
+.card_img {
+    position: relative;
+    cursor: pointer;
+    height: 280px;
+    width: 100%; 
+    background-color: rgb(212, 211, 211);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px 10px 0 0;
+    padding: 15px;
+}
+
+.favourites_button {
+    z-index: 10;
+    margin-top: 13px;
+    position: absolute;
+    left: 100%;
+    transform: translate(-140%, 0);
+    /* display: none; */
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    border-style: none;
+}
+
+/* .campsites_card:hover .favourites_button {
+    display: block;
+} */
+
+.favourites_button:hover {
+    color: #fc7d9d;
+}
+
+
+
+/*---------------------------------------- CAMPSITE PAGE CSS ----------------------------------------*/
+
+.carousel_container {
+    padding: 0px 0px 50px 0px;
+    border-radius: 20px;
+}
+
+.campsite_carousel_item {
+    background-color: #bcbcbc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    border-radius: 20px;
+}
+
+.campsite_products_options {
+    text-align: center;
+}
+
+.campsites_products_button {
+    margin: 0px 18px 5px 18px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 0px 5px rgba(0,0,0,.5);
+    height: 50px !important;
+    border-style: none !important;
+    font-size: 14pt !important;
+    font-weight: bold !important;
+    transition: background-color 0.2s;
+}
+.campsites_products_button:hover {
+    background-color: #000 !important;
+    color: #fff !important;
+}
+
+.campsites_products_button:active {
+    background-color: rgb(85, 85, 85) !important;
+    color: #fff !important;
+}
+
+.favButCar {
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    border-style: none;
+}
+
+
+
+
+/*---------------------------------------- FAVOURITES PAGE CSS ----------------------------------------*/
+.favourites_filters {
+    width: 100%;
+    border-radius: 10px 10px 10px 10px;
+    height: 40px;
+    border-style: none;
+    background-color: #fff;
+    color: #000;
+    box-shadow: 0 0px 8px rgba(0,0,0,.6);
+    margin-bottom: 6px;
+}
+
+.unfavourite_button {
+    position: absolute;
+    left: 100%;
+    transform: translate(-100%, 0%);
+    background-color: #000;
+    width: 36px;
+    height: 36px;
+    border-radius: 20px 20px 20px 20px ;
+    border-style: none;
+    margin-right: 20px;
+    padding-top: 2px;
+    transition: background-color 0.2s
+}
+
+
+.favButton {
+    margin: 0px 18px 5px 18px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 0px 5px rgba(0,0,0,.5);
+    height: 50px !important;
+    border-style: none !important;
+    font-size: 14pt !important;
+    transition: background-color 0.2s;
+}
+
+.favButton:hover {
+    background-color: #000 !important;
+    color: #fff !important;
+}
+
+.favButton:active {
+    background-color: rgb(85, 85, 85) !important;
+    color: #fff !important;
+}
+
+
+/*---------------------------------------- PRODUCT PAGE CSS ----------------------------------------*/
+
+.request_container {
+    position: relative;
+    padding: 5%;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #d7d5d5;
+    height: 450px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 3px 20px 2px rgba(139, 139, 139, 0.2);
+}
+
+.from_date_div {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    border-right-style: solid;
+    border-width: 0.5px;
+    border-color: #bcbcbc;
+}
+
+.to_date_div {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+}
+
+.calendar_request {
+    position: relative;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #bcbcbc;
+    width: 100%;
+    font-size: 10.5pt;
+    font-family: 'Sora', sans-serif;
+    border-radius: 10px 10px 10px 10px;
+    height: 56px;
+    background-color: #fff;
+    color: #000;
+    font-weight: 100;
+}
+
+.request_button {
+    background: rgb(2,0,36);
+    background: linear-gradient(24deg, rgba(2,0,36,1) 0%, rgba(227,58,74,1) 0%, rgba(233,86,122,1) 53%, rgba(210,9,58,1) 100%);
+    border-style: none;
+    border-radius: 10px;
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.request_info {
+    position: absolute;
+    bottom: 0;
+    width: 90%;
+}
+
+
+
+/*---------------------------------------- REQUEST PAGE CSS ----------------------------------------*/
+.PayMethodBtn {
+    border-radius: 10px 10px 10px 10px;
+    background-color: #fff;
+    border-style: none;
+    box-shadow: 0 0px 8px rgba(0,0,0,.6);
+}
+
+
+/*---------------------------------------- ERROR PAGE CSS ----------------------------------------*/
+.ERROR_PAGE {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(206, 206, 206);
+    background-image: url("https://cdn.discordapp.com/attachments/905851950384414790/981566551712997386/404.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 200px 0 0 0;
+  }
+  
+  
+  .ERROR_TEXT_1 {
+    top: 50%;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 80pt;
+  }
+  
+  .ERROR_TEXT_2 {
+    color: white;
+    font-size: 40pt;
+  }
+
+
+
+
+
+
+
+
+
+
+

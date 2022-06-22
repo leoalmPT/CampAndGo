@@ -1,0 +1,673 @@
+{
+    "fav":{
+        "bungalows":[
+  
+        ],
+        "tents":[
+  
+        ],
+        "campervans":[
+  
+        ],
+        "campsites":[
+  
+        ]
+    },
+
+    "filters":{
+        "environment": null,
+        "location": null,
+        "price": null,
+        "rating":null,
+        
+        "atributes":[
+            {"type": "Pool", "value": false, "id": 0, "color": "#76a5c2"},
+            {"type": "Animals", "value": false, "id": 1, "color": "#703949"},
+            {"type": "Bungalow", "value": false, "id": 2, "color": "#9e5f2f"},
+            {"type": "Campervan", "value": false, "id": 3, "color": "#1d482e"}
+        ]
+    },
+
+    "campsites": [
+        { 
+            "id" : 0, 
+            "name": "Parque de Campismo da Torreira",
+
+            "environment": "Beach",
+            "location": "Aveiro",
+            "price": 5.00,
+            "rating": 3,
+            
+            "atributes":[
+                {"type": "pool", "value": true},
+                {"type": "animals", "value": false},
+                {"type": "bungalow", "value": true},
+                {"type": "campervan", "value": true}
+            ],
+
+            "description" : "The Torreira campsite is a beautiful campsite located in Aveiro near to Torreira beach. This campsite has a pool, bungalows, allows campervans, but does not allow animals.",
+
+            "images" : [
+                "https://cf.bstatic.com/xdata/images/hotel/max1024x768/271721916.jpg?k=dc90798629b7a2b324fc7bd0b896f03019e8ce1c817da7d8a2b6fe0fca07ef2b&o=&hp=1",
+                "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/04/4a/fa/8d/piscina-sitava-orbitur.jpg?w=600&h=-1&s=1",
+                "https://litoralmagazine.com/wp-content/uploads/2020/02/LM_Torreira.jpg"
+            ],
+            
+            "bungalows" : [
+                {   "id": 0, "price": 30.00, "num_people": 3,
+                    "card_description": "Confort bungalow for 3 people", 
+                    "description" : "Comfortable bungalow located in a peaceful environment. It supports at most 3 people.",
+                    "images" : [
+                        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/271721916.jpg?k=dc90798629b7a2b324fc7bd0b896f03019e8ce1c817da7d8a2b6fe0fca07ef2b&o=&hp=1",
+                        "https://a0.muscache.com/im/pictures/f45f2365-c833-4ccd-9045-2ce4976801d6.jpg?im_w=720",
+                        "https://estrelaseouricos.sapo.pt//backoffice/images/image_25109_1_1616419746.jpeg",
+                        "https://esmxkcin6jh.exactdn.com/wp-content/uploads/2019/05/0024.jpg?strip=all&lossy=1&resize=605%2C605&ssl=1"
+
+                    ]
+                },
+                {   "id": 1, "price": 40.00, "num_people": 4,
+                    "card_description": "Confort bungalow for 4 people", 
+                    "description" : "Comfortable bungalow located in a peaceful environment. It supports at most 4 people.",
+                    "images" : [
+                        "https://a0.muscache.com/im/pictures/f45f2365-c833-4ccd-9045-2ce4976801d6.jpg?im_w=720",
+                        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/271721916.jpg?k=dc90798629b7a2b324fc7bd0b896f03019e8ce1c817da7d8a2b6fe0fca07ef2b&o=&hp=1",
+                        "https://estrelaseouricos.sapo.pt//backoffice/images/image_25109_1_1616419746.jpeg",
+                        "https://esmxkcin6jh.exactdn.com/wp-content/uploads/2019/05/0024.jpg?strip=all&lossy=1&resize=605%2C605&ssl=1"
+
+                    ]
+                }
+            ],
+            
+
+            "campervans" : [
+                {   "id": 0, "price": 20.00, "place": "Area A",
+                    "description" : "The Torreira campsite allows you to park your campervan on a peaceful and beutiful place close to the ocean. This campervan park (area A) has space for 10 campervan.",
+                    "card_description": "Parking lot at area A with 10 parking places",
+                    "images" : [
+                        "https://www.newzealand.com/assets/Videos/8664812a00/img-1546140036-4650-25591-CFC99B5E-A7DA-E553-72FAE745421FF11D__aWxvdmVrZWxseQo_FocalPointCropWzQyMCw5NjAsNzIsNzAsNzUsImpwZyIsNjUsMi41XQ.jpg",
+                        "https://www.apollocamper.com/Portals/2/EasyGalleryImages/3655/CarouselGallery/Thumbs/gid146-uid4946-EuroDeluxe_external_05_optimised.jpg"
+                    ]
+                }, 
+                {   "id": 1, "price": 15.00, "place": "Area B",
+                    "description" : "The Torreira campsite allows you to park your campervan on a peaceful and beutiful place. This campervan park (area B) has space for 20 campervan.",
+                    "card_description": "Parking lot at area B with 20 parking places",
+                    "images" : [
+                        "https://i1.wp.com/wildvan.com/wp-content/uploads/2017/02/DSC08434-wildvan.com_.jpg?ssl=1",
+                        "https://areasautocaravanas.com/wp-content/uploads/2019/11/img_20190816_075907-scaled.jpg"
+                    ]
+                },
+                {   "id": 2, "price": 10.00, "place": "Area C",
+                    "description" : "The Torreira campsite allows you to park your campervan on a peaceful and beutiful place. This campervan park (area C) has space for 40 campervan.",
+                    "card_description": "Parking lot at area C with 40 parking places",
+                    "images" : [
+                        "https://camperguru.com/wp-content/uploads/2021/11/Algarve-Motorhome-Park-Tavira-1.jpg",
+                        "https://camperguru.com/wp-content/uploads/2021/11/Algarve-Motorhome-Park-Tavira-2.jpg"
+                    ]
+                }
+
+            ],
+
+            "tents" : [
+                {   "id": 0, "price": 7, "place": "Area A", "area" : 15,
+                    "card_description": "Place with 15 m² for a tent",
+                    "description": "The Torreira campsite allows you to bring your own tent and use our peaceful and beautiful place to live your best moments. This place has 15 m² to puto all of yout stuff!",
+                    "images" : [
+                        "https://blog.gunassociation.org/wp-content/uploads/2016/06/northern-michigan-camping-Best-Campgrounds-In-Michigan-ss-Feature.jpg"
+                    ]
+                },
+                {   "id": 1, "price": 5, "place": "Area A", "area" : 75,
+                    "card_description": "Place with 75 m² for a tent",
+                    "description": "The Torreira campsite allows you to bring your own tent and use our peaceful and beautiful place to live your best moments. This place has 75 m² to puto all of yout stuff!",
+                    "images" : [
+                        "https://www.parquecampismocovas.com/images/oparque/espaco10.jpg"
+                    ]
+                },
+                {   "id": 2, "price": 10, "place": "Area C", "area" : 20,
+                    "card_description": "Place with 20 m² for a tent",
+                    "description": "The Torreira campsite allows you to bring your own tent and use our peaceful and beautiful place to live your best moments. This place has 20 m² to puto all of yout stuff!",
+                    "images" : [
+                        "https://www.coursecharted.com/wp-content/uploads/2020/08/Michigan-Campgrounds-scaled-e1597782207766.jpg"
+                    ]
+                }       
+            ]
+        },
+        { 
+            "id" : 1, 
+            "name": "Parque de Campismo Sagres",
+
+            "environment": "Beach",
+            "location": "Faro",
+            "price": 5.00,
+            "rating": 3,
+            
+            "atributes":[
+                {"type": "pool", "value": true},
+                {"type": "animals", "value": true},
+                {"type": "bungalow", "value": false},
+                {"type": "campervan", "value": true}
+            ],
+
+            "description" : "The Sagres campsite is a beautiful campsite located in Sagres near to the beach. This campsite has a pool, allows campervans and allows animals.",
+
+            "images" : [
+                "https://www.wavysurfcamp.com/wp-content/uploads/2016/02/wavy-surf-camp5.jpg",
+                "https://www.wavysurfcamp.com/wp-content/uploads/2020/06/Untitled-design-11.jpg"
+            ],
+            
+            "bungalows" : [],
+            
+
+            "campervans" : [
+                {   "id": 0, "price": 20.00, "place": "Area A",
+                    "description" : "The Sagres campsite allows you to park your campervan on a peaceful and beutiful place. This campervan park (area A) has space for 10 campervan.",
+                    "card_description": "Parking lot at area A with 10 parking places",
+                    "images" : [
+                        "https://www.orbitur.pt/images/parques/1721/DAutocaravanas.jpg"
+                    ]
+                }, 
+                {   "id": 1, "price": 15.00, "place": "Area B",
+                    "description" : "The Sagres campsite allows you to park your campervan on a peaceful and beutiful place. This campervan park (area B) has space for 20 campervan.",
+                    "card_description": "Parking lot at area B with 20 parking places",
+                    "images" : [
+                        "https://algarvemotorhomepark.com/wp-content/uploads/elementor/thumbs/Fale%CC%81sia-2-ojsros2rlyaj5dg2lywlgizb72t7xfr53pq591iah4.jpg"
+                    ]
+                },
+                {   "id": 2, "price": 10.00, "place": "Area C",
+                    "description" : "The Sagres campsite allows you to park your campervan on a peaceful and beutiful place. This campervan park (area C) has space for 40 campervan.",
+                    "card_description": "Parking lot at area C with 40 parking places",
+                    "images" : [
+                        "https://www.pitchup.com/images/3/image/private/s--gF7WeoMe--/c_limit,h_1350,w_1800/e_improve,fl_progressive/q_50/b_rgb:000,g_south_west,l_pitchup.com_wordmark_white_watermark,o_15/v1/parque_de_campismo_de_sagres/206851.jpg"
+                    ]
+                }
+
+            ],
+
+            "tents" : [
+                {   "id": 0, "price": 10, "place": "Area A", "area" : 10,
+                    "card_description": "Place with 10 m² for a tent",
+                    "description": "The Sagres campsite allows you to bring your own tent and use our peaceful and beautiful place to live your best moments. This place has 10 m² to puto all of yout stuff!",
+                    "images" : [
+                        "https://www.wavysurfcamp.com/wp-content/uploads/2016/02/wavy-surf-camp5.jpg"
+                    ]
+                },
+                {   "id": 1, "price": 15, "place": "Area Luxe", "area" : 20,
+                    "card_description": "Place with 15 m² with a luxury tent",
+                    "description": "The Sagres campsite allows you to bring your own tent and use our peaceful and beautiful place to live your best moments. This place has 20 m² to puto all of yout stuff!",
+                    "images" : [
+                        "https://www.wavysurfcamp.com/wp-content/uploads/2016/02/glamping-tents-surfcamp-algarve.jpg",
+                        "https://totalsurfcamp.com/sites/default/files/17022277_749218095237513_3911142558947893666_n_0.jpg"
+                    ]
+                }     
+            ]
+        },
+        { 
+            "id" : 2, 
+            "name": "Parque de Campismo Beja",
+
+            "environment": "Forest",
+            "location": "Beja",
+            "price": 5.00,
+            "rating": 2,
+            
+            "atributes":[
+                {"type": "pool", "value": true},
+                {"type": "animals", "value": true},
+                {"type": "bungalow", "value": true},
+                {"type": "campervan", "value": true}
+            ],
+
+            "description" : "The Beja campsite is a beautiful campsite located in Beja in the middle of the nature. This campsite has a pool, allows campervans, has bungalows and allows animals.",
+
+            "images" : [
+                "https://cdn.discordapp.com/attachments/951420985385553971/987751258708410368/unknown.png",
+                "https://cdn.discordapp.com/attachments/951420985385553971/987751405261570118/unknown.png"
+            ],
+            
+            "bungalows" : [
+                {   "id": 0, "price": 30.00, "num_people": 3,
+                    "card_description": "Confort bungalow for 3 people", 
+                    "description" : "Comfortable bungalow located in a peaceful environment. It supports at most 3 people.",
+                    "images" : [
+                        "https://campingalentejo.com/images/bungalow/IMG_0569.jpg",
+                        "https://campingalentejo.com/images/bungalow/IMG_0568.jpg"
+
+                    ]
+                },
+                {   "id": 1, "price": 40.00, "num_people": 4,
+                    "card_description": "Confort bungalow for 4 people", 
+                    "description" : "Comfortable bungalow located in a peaceful environment. It supports at most 4 people.",
+                    "images" : [
+                        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/c8/e8/2a/parque-de-campismo-ilha.jpg?w=600&h=300&s=1",
+                        "https://media-cdn.tripadvisor.com/media/photo-s/09/99/14/ae/photo0jpg.jpg"
+                    ]
+                }
+            ],
+            
+
+            "campervans" : [
+                {   "id": 0, "price": 20.00, "place": "Area A",
+                    "description" : "The Beja campsite allows you to park your campervan on a peaceful and beutiful place. This campervan park (area A) has space for 10 campervan.",
+                    "card_description": "Parking lot at area A with 10 parking places",
+                    "images" : [
+                        "https://lifecooler.com/files/registos/imagens/461428/400823.jpg"
+                    ]
+                }, 
+                {   "id": 1, "price": 15.00, "place": "Area B",
+                    "description" : "The Beja campsite allows you to park your campervan on a peaceful and beutiful place. This campervan park (area B) has space for 20 campervan.",
+                    "card_description": "Parking lot at area B with 20 parking places",
+                    "images" : [
+                        "https://www.roteirodoalqueva.com/wp-content/uploads/Campismo-1.jpg"
+                    ]
+                }
+
+            ],
+
+            "tents" : [
+                {   "id": 0, "price": 30, "place": "Area A", "area" : 10,
+                    "card_description": "Pre-assembled tent",
+                    "description": "The Beja campsite offers you to this wonderful tent in a peaceful and beautiful place to live your best moments. This place has 10 m² to puto all of yout stuff!",
+                    "images" : [
+                        "https://www.wavysurfcamp.com/wp-content/uploads/2016/02/wavy-surf-camp5.jpg"
+                    ]
+                },
+                {   "id": 1, "price": 30, "place": "Area B", "area" : 10,
+                    "card_description": "Pre-assembled tent",
+                    "description": "The Beja campsite offers you to this wonderful tent in a peaceful and beautiful place to live your best moments. This place has 10 m² to puto all of yout stuff!",
+                    "images" : [
+                        "https://media.glampinghub.com/CACHE/images/accommodations/romantic-camping-tents-with-breakfast-included-on-an-organic-farm-1554716608873/8f6dca1fb4f3880fd5b603464f919f3b.jpg"
+                    ]
+                },
+                {   "id": 2, "price": 15, "place": "Area C", "area" : 20,
+                    "card_description": "Place with 15 m² for tent",
+                    "description": "The Beja campsite allows you to bring your own tent and use our peaceful and beautiful place to live your best moments. This place has 20 m² to puto all of yout stuff!",
+                    "images" : [
+                        "https://www.montecarvalhaldarocha.com/media/monte-carvalhal-da-rocha-gallerymsxx1599_web-2.jpg"
+                    ]
+                }     
+            ]
+        },
+        { 
+            "id" : 3, 
+            "name": "Parque de Campismo Quinta do Retiro",
+
+            "environment": "Forest",
+            "location": "Coimbra",
+            "price": 5.00,
+            "rating": 2,
+            
+            "atributes":[
+                {"type": "pool", "value": true},
+                {"type": "animals", "value": true},
+                {"type": "bungalow", "value": false},
+                {"type": "campervan", "value": true}
+            ],
+
+            "description" : "The Beja campsite is a beautiful campsite located in Beja in the middle of the nature. This campsite has a pool, allows campervans, has bungalows and allows animals.",
+
+            "images" : [
+                "https://cdn.prod.v2.camping.info/media/campsites/quinta-do-retiro/uXp38Wvk82PL.jpg.webp",
+                "https://cdn.prod.v2.camping.info/media/campsites/quinta-do-retiro/Olgw8w9g6FwZ.jpg.webp",
+                "https://cdn.prod.v2.camping.info/media/campsites/quinta-do-retiro/eSVNibg-HA02.jpg.webp",
+                "https://cdn.prod.v2.camping.info/media/campsites/quinta-do-retiro/HEUrgkI8HB32.jpg.webp"
+            ],
+            
+            "bungalows" : [],
+            
+            "campervans" : [
+                {   "id": 0, "price": 10.00, "place": "Area A",
+                    "description" : "The Quinta do Retiro campsite allows you to park your campervan on a peaceful and beutiful place. This campervan park (area A) has space for 10 campervan.",
+                    "card_description": "Parking lot at area A with 10 parking places",
+                    "images" : [
+                        "https://cdn.prod.v2.camping.info/media/campsites/quinta-do-retiro/eKsjazSQuH-0.jpg.webp"
+                    ]
+                }, 
+                {   "id": 1, "price": 15.00, "place": "Area B",
+                    "description" : "The Quinta do Retiro campsite allows you to park your campervan on a peaceful and beutiful place. This campervan park (area B) has space for 20 campervan.",
+                    "card_description": "Parking lot at area B with 20 parking places",
+                    "images" : [
+                        "https://cdn.prod.v2.camping.info/media/campsites/quinta-do-retiro/xgmQAhV_rhXd.jpg.webp"
+                    ]
+                },
+                {   "id": 2, "price": 15.00, "place": "Area C",
+                    "description" : "The Quinta do Retiro campsite allows you to park your campervan on a peaceful and beutiful place. This campervan park (area B) has space for 20 campervan.",
+                    "card_description": "Parking lot at area C with 20 parking places",
+                    "images" : [
+                        "https://cdn.prod.v2.camping.info/media/campsites/quinta-do-retiro/5fqZO_QweyzW.jpg.webp"
+                    ]
+                }
+
+            ],
+
+            "tents" : [
+                {   "id": 0, "price": 7, "place": "Area A", "area" : 15,
+                    "card_description": "Place with 15 m² for a tent",
+                    "description": "The Quinta do Retiro campsite allows you to bring your own tent and use our peaceful and beautiful place to live your best moments. This place has 15 m² to puto all of yout stuff!",
+                    "images" : [
+                        "https://cdn.prod.v2.camping.info/media/campsites/quinta-do-retiro/J0iPWaT_NxSQ.jpg.webp"
+                    ]
+                },
+                {   "id": 1, "price": 5, "place": "Area B", "area" : 100,
+                    "card_description": "Place with 100 m² for a tent",
+                    "description": "The Quinta do Retiro campsite allows you to bring your own tent and use our peaceful and beautiful place to live your best moments. This place has 100 m² to puto all of yout stuff!",
+                    "images" : [
+                        "https://cdn.prod.v2.camping.info/media/campsites/quinta-do-retiro/-fqV28RGElML.jpg.webp"
+                    ]
+                }     
+            ]
+        },
+        { 
+            "id" : 4, 
+            "name": "Parque de Campismo Cepo Verde",
+
+            "environment": "Forest",
+            "location": "Bragança",
+            "price": 5.00,
+            "rating": 4,
+            
+            "atributes":[
+                {"type": "pool", "value": true},
+                {"type": "animals", "value": true},
+                {"type": "bungalow", "value": true},
+                {"type": "campervan", "value": false}
+            ],
+
+            "description" : "The Cepo Verde campsite is a beautiful campsite located in Bragança in the middle of the nature. This campsite has a pool, has bungalows and allows animals.",
+
+            "images" : [
+                "https://cdn.prod.v2.camping.info/media/campsites/parque-de-campismo-cepo-verde/08qstdZEnpCJ.jpg.webp",
+                "https://cdn.prod.v2.camping.info/media/campsites/parque-de-campismo-cepo-verde/sFAmiVL_6q3V.jpg.webp",
+                "https://cdn.prod.v2.camping.info/media/campsites/parque-de-campismo-cepo-verde/HseGDWB-4N-z.jpg.webp",
+                "https://cdn.prod.v2.camping.info/media/campsites/parque-de-campismo-cepo-verde/C6otdhNmvP7V.jpg.webp"
+            ],
+            
+            "bungalows" : [
+                {   "id": 0, "price": 30.00, "num_people": 3,
+                    "card_description": "Confort bungalow for 3 people", 
+                    "description" : "Comfortable bungalow located in a peaceful environment. It supports at most 3 people.",
+                    "images" : [
+                        "https://cdn.prod.v2.camping.info/media/campsites/parque-de-campismo-cepo-verde/08qstdZEnpCJ.jpg.webp",
+                        "https://cdn.prod.v2.camping.info/media/campsites/parque-de-campismo-cepo-verde/BU4LUrSYoRWG.jpg.webp"
+
+                    ]
+                }
+            ],
+            
+            "campervans" : [],
+
+            "tents" : [
+                {   "id": 0, "price": 7, "place": "Area A", "area" : 100,
+                    "card_description": "Place with 15 m² for a tent",
+                    "description": "The Cepo Verde campsite allows you to bring your own tent and use our peaceful and beautiful place to live your best moments. This place has 100 m² to puto all of yout stuff!",
+                    "images" : [
+                        "https://cdn.prod.v2.camping.info/media/campsites/parque-de-campismo-cepo-verde/7T300phXF3aM.jpg.webp"
+                    ]
+                }  
+            ]
+        },
+        { 
+            "id" : 5, 
+            "name": "Parque de Campismo Lisboa Camping",
+
+            "environment": "Forest",
+            "location": "Lisboa",
+            "price": 5.00,
+            "rating": 4,
+            
+            "atributes":[
+                {"type": "pool", "value": true},
+                {"type": "animals", "value": false},
+                {"type": "bungalow", "value": true},
+                {"type": "campervan", "value": true}
+            ],
+
+            "description" : "The Lisboa Camping campsite is a beautiful campsite located in Lisboa. This campsite has a pool, bungalows, allows campervans, but does not allow animals.",
+
+            "images" : [
+                "https://cdn.prod.v2.camping.info/media/campsites/lisboa-camping-bungalows/JenY-Il1iOES.jpg.webp",
+                "https://cdn.prod.v2.camping.info/media/campsites/lisboa-camping-bungalows/_DAg-CJdFzkL.jpg.webp",
+                "https://cdn.prod.v2.camping.info/media/campsites/lisboa-camping-bungalows/U13nem8x1PHD.jpg.webp"
+            ],
+            
+            "bungalows" : [
+                {   "id": 0, "price": 30.00, "num_people": 3,
+                    "card_description": "Confort bungalow for 3 people", 
+                    "description" : "Comfortable bungalow located in a peaceful environment. It supports at most 3 people.",
+                    "images" : [
+                        "https://cdn.prod.v2.camping.info/media/campsites/lisboa-camping-bungalows/LpyG15GIbSmb.jpg.webp"
+
+                    ]
+                }
+            ],
+            
+
+            "campervans" : [
+                {   "id": 0, "price": 20.00, "place": "Area A",
+                    "description" : "The Lisboa Camping campsite allows you to park your campervan on a peaceful and beutiful place close to the ocean. This campervan park (area A) has space for 10 campervan.",
+                    "card_description": "Parking lot at area A with 10 parking places",
+                    "images" : [
+                        "https://cdn.prod.v2.camping.info/media/campsites/lisboa-camping-bungalows/M-A6TVbgrPLd.jpg.webp",
+                        "https://cdn.prod.v2.camping.info/media/campsites/lisboa-camping-bungalows/XDYDV1iY7WmL.jpg.webp"
+                    ]
+                }, 
+                {   "id": 1, "price": 15.00, "place": "Area B",
+                    "description" : "The Lisboa Camping campsite allows you to park your campervan on a peaceful and beutiful place. This campervan park (area B) has space for 20 campervan.",
+                    "card_description": "Parking lot at area B with 20 parking places",
+                    "images" : [
+                        "https://cdn.prod.v2.camping.info/media/campsites/lisboa-camping-bungalows/G6cV0378uRxX.jpg.webp"
+                    ]
+                },
+                {   "id": 2, "price": 10.00, "place": "Area C",
+                    "description" : "The Lisboa Camping campsite allows you to park your campervan on a peaceful and beutiful place. This campervan park (area C) has space for 40 campervan.",
+                    "card_description": "Parking lot at area C with 40 parking places",
+                    "images" : [
+                        "https://cdn.prod.v2.camping.info/media/campsites/lisboa-camping-bungalows/QoFoxZVNyKhQ.jpg.webp"
+                    ]
+                }
+
+            ],
+
+            "tents" : [
+                {   "id": 0, "price": 7, "place": "Area A", "area" : 15,
+                    "card_description": "Place with 15 m² for a tent",
+                    "description": "The Lisboa Camping campsite allows you to bring your own tent and use our peaceful and beautiful place to live your best moments. This place has 15 m² to puto all of yout stuff!",
+                    "images" : [
+                        "https://blog.gunassociation.org/wp-content/uploads/2016/06/northern-michigan-camping-Best-Campgrounds-In-Michigan-ss-Feature.jpg"
+                    ]
+                },
+                {   "id": 1, "price": 5, "place": "Area A", "area" : 75,
+                    "card_description": "Place with 75 m² for a tent",
+                    "description": "The Lisboa Camping campsite allows you to bring your own tent and use our peaceful and beautiful place to live your best moments. This place has 75 m² to puto all of yout stuff!",
+                    "images" : [
+                        "https://www.parquecampismocovas.com/images/oparque/espaco10.jpg"
+                    ]
+                },
+                {   "id": 2, "price": 10, "place": "Area C", "area" : 20,
+                    "card_description": "Place with 20 m² for a tent",
+                    "description": "The Lisboa Camping campsite allows you to bring your own tent and use our peaceful and beautiful place to live your best moments. This place has 20 m² to puto all of yout stuff!",
+                    "images" : [
+                        "https://www.coursecharted.com/wp-content/uploads/2020/08/Michigan-Campgrounds-scaled-e1597782207766.jpg"
+                    ]
+                }       
+            ]
+        },
+        { 
+            "id" : 6, 
+            "name": "Parque de Campismo de Vila Caia",
+
+            "environment": "Forest",
+            "location": "Coimbra",
+            "price": 18.70,
+            "rating": 5,
+            
+            "atributes":[
+                {"type": "pool", "value": true},
+                {"type": "animals", "value": false},
+                {"type": "bungalow", "value": false},
+                {"type": "campervan", "value": true}
+            ],
+
+            "description" : "The Vila Caia campsite is a beautiful campsite located in Mira. This campsite has a pool, allows campervans, but does not allow animals.",
+
+            "images" : [
+                "https://cdn.prod.v2.camping.info/media/campsites/parque-de-campismo-de-vila-caia/yRigT_RbipSy.jpg.webp",
+                "https://cdn.prod.v2.camping.info/media/campsites/parque-de-campismo-de-vila-caia/saWPr48zAiTU.jpg.webp",
+                "https://cdn.prod.v2.camping.info/media/campsites/parque-de-campismo-de-vila-caia/oICX_Q2fX5ln.jpg.webp"
+            ],
+            
+            "bungalows" : [],
+            
+            "campervans" : [
+                {   "id": 0, "price": 20.00, "place": "Area A",
+                    "description" : "The Vila Caia campsite allows you to park your campervan on a peaceful and beutiful place close to the ocean. This campervan park (area A) has space for 10 campervan.",
+                    "card_description": "Parking lot at area A with 10 parking places",
+                    "images" : [
+                        "https://cdn.prod.v2.camping.info/media/campsites/parque-de-campismo-de-vila-caia/saWPr48zAiTU.jpg.webp"
+                    ]
+                }
+
+            ],
+
+            "tents" : [
+                {   "id": 0, "price": 7, "place": "Area A", "area" : 15,
+                    "card_description": "Place with 15 m² for a tent",
+                    "description": "The Vila Caia campsite allows you to bring your own tent and use our peaceful and beautiful place to live your best moments. This place has 15 m² to puto all of yout stuff!",
+                    "images" : [
+                        "https://cdn.prod.v2.camping.info/media/campsites/parque-de-campismo-de-vila-caia/uP7OLMJ0Wkp9.jpg.webp"
+                    ]
+                }     
+            ]
+        },
+        { 
+            "id" : 7, 
+            "name": "Parque de Campismo da Cerdeira",
+
+            "environment": "Montain",
+            "location": "Braga",
+            "price": 5.00,
+            "rating": 4,
+            
+            "atributes":[
+                {"type": "pool", "value": true},
+                {"type": "animals", "value": false},
+                {"type": "bungalow", "value": true},
+                {"type": "campervan", "value": true}
+            ],
+
+            "description" : "The Cerdeira campsite is a beautiful campsite located in Braga near to Gerês. This campsite has a pool, bungalows, allows campervans, but does not allow animals.",
+
+            "images" : [
+                "https://cdn.prod.v2.camping.info/media/campsites/parque-cerdeira/mYZ_lST-1SVC.jpg.webp",
+                "https://cdn.prod.v2.camping.info/media/campsites/parque-cerdeira/ImwtHjen3Gw5.jpg.webp",
+                "https://cdn.prod.v2.camping.info/media/campsites/parque-cerdeira/ajZVCeysBEzO.jpg.webp"
+            ],
+            
+            "bungalows" : [
+                {   "id": 0, "price": 30.00, "num_people": 3,
+                    "card_description": "Confort bungalow for 3 people", 
+                    "description" : "Comfortable bungalow located in a peaceful environment. It supports at most 3 people.",
+                    "images" : [
+                        "https://cdn.prod.v2.camping.info/media/campsites/parque-cerdeira/mYZ_lST-1SVC.jpg.webp",
+                        "https://cdn.prod.v2.camping.info/media/campsites/parque-cerdeira/ImwtHjen3Gw5.jpg.webp",
+                        "https://cdn.prod.v2.camping.info/media/campsites/parque-cerdeira/DpUfvsaF1v8n.jpg.webp"
+
+                    ]
+                }
+            ],
+            
+
+            "campervans" : [
+                {   "id": 0, "price": 20.00, "place": "Area A",
+                    "description" : "The Cerdeira campsite allows you to park your campervan on a peaceful and beutiful place close to the ocean. This campervan park (area A) has space for 10 campervan.",
+                    "card_description": "Parking lot at area A with 10 parking places",
+                    "images" : [
+                        "https://cdn.prod.v2.camping.info/media/campsites/parque-cerdeira/ajZVCeysBEzO.jpg.webp"
+                    ]
+                }, 
+                {   "id": 1, "price": 15.00, "place": "Area B",
+                    "description" : "The Cerdeira campsite allows you to park your campervan on a peaceful and beutiful place. This campervan park (area B) has space for 20 campervan.",
+                    "card_description": "Parking lot at area B with 20 parking places",
+                    "images" : [
+                        "https://cdn.prod.v2.camping.info/media/campsites/parque-cerdeira/cugITIN4ioXe.jpg.webp"
+                    ]
+                }
+            ],
+
+            "tents" : [
+                {   "id": 0, "price": 10, "place": "Global Area", "area" : 200,
+                    "card_description": "Place with 200 m² for a tent",
+                    "description": "The Cerdeira campsite allows you to bring your own tent and use our peaceful and beautiful place to live your best moments. This place has 15 m² to puto all of yout stuff!",
+                    "images" : [
+                        "https://cdn.prod.v2.camping.info/media/campsites/parque-cerdeira/scrzC5TfXEg0.jpg.webp"
+                    ]
+                }      
+            ]
+        },
+        { 
+            "id" : 8, 
+            "name": "Parque de Campismo Orbitur Valado",
+
+            "environment": "Beach",
+            "location": "Leiria",
+            "price": 5.00,
+            "rating": 3,
+            
+            "atributes":[
+                {"type": "pool", "value": true},
+                {"type": "animals", "value": true},
+                {"type": "bungalow", "value": true},
+                {"type": "campervan", "value": true}
+            ],
+
+            "description" : "The Orbitur Valado campsite is a beautiful campsite located in Leiria near to Nazaré. This campsite has a pool, bungalows, allows campervans and allow animals.",
+
+            "images" : [
+                "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/b4/32/03/photo5jpg.jpg?w=1200&h=-1&s=1",
+                "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/82/01/29/parque-de-campismo-orbitur.jpg?w=1200&h=-1&s=1",
+                "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/88/ad/81/parque-de-campismo-orbitur.jpg?w=600&h=-1&s=1",
+                "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/40/b8/fe/parque-de-campismo-orbitur.jpg?w=1200&h=-1&s=1"
+            ],
+            
+            "bungalows" : [
+                {   "id": 0, "price": 30.00, "num_people": 3,
+                    "card_description": "Confort bungalow for 3 people", 
+                    "description" : "Comfortable bungalow located in a peaceful environment. It supports at most 3 people.",
+                    "images" : [
+                        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/b4/32/02/photo4jpg.jpg?w=1200&h=-1&s=1",
+                        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/88/ad/81/parque-de-campismo-orbitur.jpg?w=600&h=-1&s=1"
+
+                    ]
+                }
+            ],
+            
+
+            "campervans" : [
+                {   "id": 0, "price": 20.00, "place": "Area A",
+                    "description" : "The Orbitur Valado campsite allows you to park your campervan on a peaceful and beutiful place close to the ocean. This campervan park (area A) has space for 10 campervan.",
+                    "card_description": "Parking lot at area A with 10 parking places",
+                    "images" : [
+                        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/b4/32/01/photo3jpg.jpg?w=1200&h=-1&s=1"
+                    ]
+                }, 
+                {   "id": 1, "price": 15.00, "place": "Area B",
+                    "description" : "The Orbitur Valado campsite allows you to park your campervan on a peaceful and beutiful place. This campervan park (area B) has space for 20 campervan.",
+                    "card_description": "Parking lot at area B with 20 parking places",
+                    "images" : [
+                        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/b4/32/03/photo5jpg.jpg?w=1200&h=-1&s=1"
+                    ]
+                }  
+            ],
+
+            "tents" : [
+                {   "id": 0, "price": 7, "place": "Area A", "area" : 15,
+                    "card_description": "Place with 15 m² for a tent",
+                    "description": "The Orbitur Valado campsite allows you to bring your own tent and use our peaceful and beautiful place to live your best moments. This place has 15 m² to puto all of yout stuff!",
+                    "images" : [
+                        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/82/01/10/parque-de-campismo-orbitur.jpg?w=1200&h=-1&s=1",
+                        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/b4/32/00/photo2jpg.jpg?w=1200&h=-1&s=1"
+                    ]
+                }      
+            ]
+        }
+    ]
+
+}
