@@ -2,7 +2,7 @@ import React from 'react';
 import '../App.css';
 import {Card, Col } from 'react-bootstrap';
 import {Link , useNavigate} from "react-router-dom";
-import { FaSwimmer, FaPaw, FaHome, FaCaravan } from "react-icons/fa";
+import { FaSwimmer, FaPaw, FaHome, FaCaravan , FaStar} from "react-icons/fa";
 import {AiFillHeart, AiOutlineHeart} from 'react-icons/ai';
 import { MdLocationOn } from "react-icons/md";
 import myData from '../data.json'
@@ -69,6 +69,8 @@ function CampCard(props) {
                                 <MdLocationOn size={"30"}/> {campsite.location}
                                 <br/>
                                 Environment: {campsite.environment}
+                                <br/>
+                                Rating: {campsite.rating} <FaStar size={"20"} style={{marginTop: "-5px"}}/>
                                 <br/>
                                 Price: {campsite.price}€ <span style={{fontSize: 12}}>/night</span>
                                 <br/>
