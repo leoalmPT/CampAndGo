@@ -11,7 +11,7 @@ import ErrorPage from './pages/ErrorPage';
 
 import myData from './data.json';
 
-import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import { HashRouter as Router, Routes, Route} from "react-router-dom";
 
 function App() {
   localStorage.clear();
