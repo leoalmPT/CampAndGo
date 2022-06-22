@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/CampAndGo/static/css/main.2eccb977.css",
-    "main.js": "/CampAndGo/static/js/main.6845ad73.js",
+    "main.js": "/CampAndGo/static/js/main.bab9949f.js",
     "static/js/787.ec704a7a.chunk.js": "/CampAndGo/static/js/787.ec704a7a.chunk.js",
     "static/media/banner.jpg": "/CampAndGo/static/media/banner.c33b6b3eabc79a65b429.jpg",
     "index.html": "/CampAndGo/index.html",
     "main.2eccb977.css.map": "/CampAndGo/static/css/main.2eccb977.css.map",
-    "main.6845ad73.js.map": "/CampAndGo/static/js/main.6845ad73.js.map",
+    "main.bab9949f.js.map": "/CampAndGo/static/js/main.bab9949f.js.map",
     "787.ec704a7a.chunk.js.map": "/CampAndGo/static/js/787.ec704a7a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2eccb977.css",
-    "static/js/main.6845ad73.js"
+    "static/js/main.bab9949f.js"
   ]
 }
