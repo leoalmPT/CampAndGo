@@ -30,7 +30,7 @@ function App() {
             <Route path="/campsite/:id" element={<CampsiteInfo />} />
             <Route path="/camping/:cId/:type/:id" element={<Camp />} />
             <Route path="/request" element={<Request />} />
-            <Route path="*" element={<ErrorPage />} />
+            <Route path="/*" element={<ErrorPage />} />
           </Routes>
         </div>
     </Router>
