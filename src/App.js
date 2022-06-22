@@ -16,6 +16,7 @@ import { HashRouter as Router, Routes, Route} from "react-router-dom";
 function App() {
   localStorage.clear();
   localStorage.setItem('fav', JSON.stringify(myData.fav))
+  
   return (
     <>
       <Router>
